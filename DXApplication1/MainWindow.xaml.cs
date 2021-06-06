@@ -19,9 +19,6 @@ using System.Threading;
 
 namespace DXApplication1
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : ThemedWindow
     {
         DATA MyData = new DATA();
@@ -29,7 +26,7 @@ namespace DXApplication1
         public MainWindow()
         {
             InitializeComponent();
-            SerialPortLink();
+            //SerialPortLink();
             DispatcherTimer timer = new DispatcherTimer();
             TimeSpan t1 = new TimeSpan(0, 0, 1);
             timer.Interval = t1;

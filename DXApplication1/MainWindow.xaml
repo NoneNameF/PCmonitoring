@@ -52,7 +52,7 @@
             </Setter>
         </Style>
         <Style TargetType="{x:Type RadioButton}" x:Key="RadioButtonType3">
-            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontSize" Value="20"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="Padding" Value=" 13"/>
             <Setter Property="Margin" Value="70,0,20,0"/>
@@ -264,6 +264,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
+                        <RowDefinition/>
                         <RowDefinition/>
                         <RowDefinition/>
                         <RowDefinition/>
